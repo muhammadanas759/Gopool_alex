@@ -1,13 +1,11 @@
 package firebase.gopool.Home;
 
 import android.app.DatePickerDialog;
-import android.app.TimePickerDialog;
-import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -16,7 +14,6 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.firebase.geofire.GeoFire;
@@ -37,7 +34,6 @@ import java.util.Locale;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import firebase.gopool.Common.ApplicationContext;
-import firebase.gopool.Pickup.PickupLocationActivity;
 import firebase.gopool.R;
 import firebase.gopool.Utils.FirebaseMethods;
 import firebase.gopool.Utils.UniversalImageLoader;

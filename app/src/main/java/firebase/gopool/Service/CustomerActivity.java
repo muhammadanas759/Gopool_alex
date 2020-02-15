@@ -1,29 +1,21 @@
 package firebase.gopool.Service;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
-import com.squareup.picasso.Picasso;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 import firebase.gopool.R;
-import firebase.gopool.Remote.IFCMService;
 import firebase.gopool.Utils.FirebaseMethods;
 import firebase.gopool.Utils.UniversalImageLoader;
-import firebase.gopool.models.User;
 
 public class CustomerActivity extends AppCompatActivity {
     private static final String TAG = "CustomerActivity";

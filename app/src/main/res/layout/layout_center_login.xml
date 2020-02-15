@@ -47,7 +47,7 @@
             android:textColor="@color/white"
             android:textSize="16dp" />
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view"
             android:layout_alignParentBottom="true"
@@ -74,7 +74,7 @@
                     android:textSize="16dp" />
 
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -95,7 +95,7 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/emailEditText"
                         android:hint="Email" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
 
                 <RelativeLayout
@@ -107,7 +107,7 @@
                     android:layout_below="@id/textInputLayout1">
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/textInputLayout2">
@@ -126,7 +126,7 @@
                             android:layout_below="@+id/emailEditText"
                             android:id="@+id/passwordEditText"
                             android:hint="Password" />
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
                     <Button
                         android:id="@+id/btn_login"
@@ -164,10 +164,10 @@
 
                 </RelativeLayout>
             </RelativeLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:id="@+id/card_view_loading"
             android:layout_centerVertical="true"
@@ -192,7 +192,7 @@
                 android:layout_centerHorizontal="true"
                 android:textSize="15sp"
                 android:layout_marginBottom="7dp"/>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
 </merge>

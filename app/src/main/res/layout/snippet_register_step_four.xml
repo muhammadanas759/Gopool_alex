@@ -78,7 +78,7 @@
             </RadioGroup>
 
             <!-- Full name layout -->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/carToggle"
@@ -100,9 +100,9 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/licenceStepFourEditText"
                     android:hint="Licence number" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/licenceLayout"
@@ -124,11 +124,11 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/carStepFourEditText"
                     android:hint="Car" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
 
             <!-- Username layout -->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/carLayout"
@@ -150,10 +150,10 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/registrationStepFourEditText"
                     android:hint="Registration plate" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Username layout -->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/registrationLayout"
@@ -175,7 +175,7 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/seatsStepFourEditText"
                     android:hint="Seats" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
 
 

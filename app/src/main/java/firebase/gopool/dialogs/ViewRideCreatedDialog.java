@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -15,7 +15,6 @@ import android.widget.TextView;
 
 import firebase.gopool.Account.ProfileActivity;
 import firebase.gopool.Home.EditRideActivity;
-import firebase.gopool.Home.OfferRideFragment;
 import firebase.gopool.R;
 
 public class ViewRideCreatedDialog extends Dialog implements

@@ -3,10 +3,10 @@ package firebase.gopool.Reminder;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -24,9 +24,7 @@ import java.util.ArrayList;
 import firebase.gopool.Adapter.ReminderAdapter;
 import firebase.gopool.R;
 import firebase.gopool.Utils.FirebaseMethods;
-import firebase.gopool.Utils.UniversalImageLoader;
 import firebase.gopool.models.Reminder;
-import firebase.gopool.models.User;
 
 /**
  * Created by P16174003 on 13/02/2019.

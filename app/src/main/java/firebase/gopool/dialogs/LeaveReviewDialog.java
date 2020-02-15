@@ -2,11 +2,7 @@ package firebase.gopool.dialogs;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
@@ -14,10 +10,8 @@ import android.widget.EditText;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
-import firebase.gopool.Account.ProfileActivity;
 import firebase.gopool.R;
 import firebase.gopool.Utils.FirebaseMethods;
-import firebase.gopool.Utils.SectionsStatePageAdapter;
 
 public class LeaveReviewDialog extends Dialog implements
         View.OnClickListener  {

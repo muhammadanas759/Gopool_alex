@@ -4,15 +4,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -30,14 +29,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import firebase.gopool.Adapter.ReminderAdapter;
 import firebase.gopool.R;
 import firebase.gopool.Reminder.ReminderActivity;
 import firebase.gopool.Utils.BadgeView;
 import firebase.gopool.Utils.BottomNavigationViewHelper;
 import firebase.gopool.Utils.FirebaseMethods;
 import firebase.gopool.Adapter.MyAdapter;
-import firebase.gopool.models.Reminder;
 import firebase.gopool.models.Ride;
 
 public class RidesActivity extends AppCompatActivity {

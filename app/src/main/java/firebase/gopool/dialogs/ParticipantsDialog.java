@@ -3,14 +3,13 @@ package firebase.gopool.dialogs;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -23,16 +22,12 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-import firebase.gopool.Adapter.BookingAdapter;
 import firebase.gopool.Adapter.ParticipantsAdapter;
-import firebase.gopool.Booked.BookedActivity;
 import firebase.gopool.R;
 import firebase.gopool.Utils.FirebaseMethods;
 import firebase.gopool.Utils.UniversalImageLoader;
-import firebase.gopool.models.BookingResults;
 import firebase.gopool.models.Participants;
 import firebase.gopool.models.User;
-import firebase.gopool.models.UserReview;
 
 public class ParticipantsDialog extends Dialog implements
         View.OnClickListener  {

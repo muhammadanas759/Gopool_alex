@@ -15,7 +15,7 @@
 
 
             <!-- Username layout -->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/usernameLayout">
@@ -36,10 +36,10 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/emailStepOneEditText"
                     android:hint="Email" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Email layout -->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/usernameLayout"
@@ -61,7 +61,7 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/passwordStepOneEditText"
                     android:hint="Password" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
 
 

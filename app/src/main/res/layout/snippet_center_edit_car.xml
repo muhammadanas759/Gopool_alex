@@ -76,7 +76,7 @@
             android:id="@+id/carDetailsLayout"
             android:layout_height="wrap_content">
         <!-- Full name layout -->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/licenceLayout">
@@ -97,9 +97,9 @@
                 android:fontFamily="sans-serif"
                 android:id="@+id/licenceEditText"
                 android:hint="Licence number" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/licenceLayout"
@@ -121,11 +121,11 @@
                 android:fontFamily="sans-serif"
                 android:id="@+id/carEditText"
                 android:hint="Car" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <!-- Username layout -->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/carLayout"
@@ -147,10 +147,10 @@
                 android:fontFamily="sans-serif"
                 android:id="@+id/registrationEditText"
                 android:hint="Registration plate" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Username layout -->
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/registrationLayout"
@@ -172,7 +172,7 @@
                 android:fontFamily="sans-serif"
                 android:id="@+id/seatsEditText"
                 android:hint="Seats" />
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
         <Button

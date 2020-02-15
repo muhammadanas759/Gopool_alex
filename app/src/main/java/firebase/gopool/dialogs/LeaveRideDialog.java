@@ -5,8 +5,8 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -20,11 +20,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import firebase.gopool.Account.HelpFragment;
 import firebase.gopool.Booked.BookedActivity;
 import firebase.gopool.R;
 import firebase.gopool.Utils.FirebaseMethods;
-import firebase.gopool.Utils.SectionsStatePageAdapter;
 
 public class LeaveRideDialog extends Dialog implements
         View.OnClickListener  {

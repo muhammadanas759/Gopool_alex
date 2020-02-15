@@ -10,7 +10,7 @@
         android:background="@android:color/transparent"
         android:orientation="vertical">
 
-        <android.support.v7.widget.CardView
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="5dp"
@@ -53,13 +53,13 @@
                         android:gravity="center" />
                 </RelativeLayout>
 
-                <android.support.v7.widget.RecyclerView
+                <androidx.recyclerview.widget.RecyclerView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:id="@+id/recycler_view"
                     android:layout_marginBottom="10dp"
                     android:scrollbars="vertical">
-                </android.support.v7.widget.RecyclerView>
+                </androidx.recyclerview.widget.RecyclerView>
 
 
                 <TextView
@@ -73,7 +73,7 @@
                     android:layout_marginTop="5dp"
                     android:textSize="15sp" />
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+        </androidx.cardview.widget.CardView>
 
 
     </FrameLayout>

@@ -23,7 +23,7 @@
 
 
                 <!-- Full name layout -->
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/registrationPicture"
@@ -45,9 +45,9 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/fullnameStepThreeEditText"
                         android:hint="Full name" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/fullnameLayout"
@@ -70,11 +70,11 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/dobStepThreeEditText"
                         android:hint="Date of birth" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
 
                 <!-- Mobile number layout -->
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/dobLayout"
@@ -96,10 +96,10 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/mobileStepThreeEditText"
                         android:hint="Mobile number" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Mobile number layout -->
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/usernameLayout"
@@ -122,10 +122,10 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/workEditTextStepThree"
                         android:hint="Work place" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Mobile number layout -->
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/workLayout"
@@ -148,10 +148,10 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/educationEditTextStepThree"
                         android:hint="Education" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
                 <!-- Mobile number layout -->
-                <android.support.design.widget.TextInputLayout
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/educationLayout"
@@ -174,7 +174,7 @@
                         android:fontFamily="sans-serif"
                         android:id="@+id/bioEditTextStepThree"
                         android:hint="Tell us abit about yourself" />
-                </android.support.design.widget.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
 
 
 

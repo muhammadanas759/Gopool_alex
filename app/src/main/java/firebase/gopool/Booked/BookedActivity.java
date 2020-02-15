@@ -1,24 +1,19 @@
 package firebase.gopool.Booked;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.design.internal.BottomNavigationItemView;
-import android.support.design.internal.BottomNavigationMenuView;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -28,21 +23,13 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.text.ParseException;
 import java.util.ArrayList;
-import java.util.Date;
 
 import firebase.gopool.Adapter.BookingAdapter;
-import firebase.gopool.Home.SearchResultsActivity;
 import firebase.gopool.R;
 import firebase.gopool.Utils.BottomNavigationViewHelper;
 import firebase.gopool.Utils.FirebaseMethods;
-import firebase.gopool.Adapter.MyAdapter;
-import firebase.gopool.dialogs.LeaveReviewDialog;
-import firebase.gopool.dialogs.WelcomeDialog;
 import firebase.gopool.models.BookingResults;
-import firebase.gopool.models.Request;
-import firebase.gopool.models.Ride;
 
 public class BookedActivity extends AppCompatActivity {
 

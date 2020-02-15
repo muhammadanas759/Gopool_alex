@@ -20,7 +20,7 @@
 
 
             <!-- Username layout -->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/usernameLayout">
@@ -42,7 +42,7 @@
                     android:fontFamily="sans-serif"
                     android:id="@+id/usernameStepTwoEditText"
                     android:hint="Username" />
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
 
             <Button

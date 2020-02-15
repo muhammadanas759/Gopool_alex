@@ -4,34 +4,25 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
+
+import androidx.cardview.widget.CardView;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 
 import de.hdodenhof.circleimageview.CircleImageView;
-import firebase.gopool.Booked.BookedActivity;
 import firebase.gopool.Pickup.PickupActivity;
 import firebase.gopool.R;
-import firebase.gopool.dialogs.BookRideDialog;
 import firebase.gopool.models.BookingResults;
-import firebase.gopool.models.Request;
-import firebase.gopool.models.Ride;
 
 public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.MyViewHolder> {
     private String[] mDataset;

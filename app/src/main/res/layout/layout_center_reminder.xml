@@ -5,11 +5,11 @@
     android:layout_height="match_parent">
 
     <include layout="@layout/layout_center_viewpager"/>
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="10dp"
         android:id="@+id/recycler_view"
         android:scrollbars="vertical">
-    </android.support.v7.widget.RecyclerView>
+    </androidx.recyclerview.widget.RecyclerView>
 </merge>

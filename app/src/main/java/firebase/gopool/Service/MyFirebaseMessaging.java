@@ -3,27 +3,20 @@ package firebase.gopool.Service;
 import android.app.Notification;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
-import android.support.v4.app.NotificationCompat;
-import android.util.Log;
+import androidx.core.app.NotificationCompat;
 
-import com.google.android.gms.maps.model.LatLng;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.google.gson.Gson;
 
 import java.util.Map;
 import java.util.Random;
 
-import firebase.gopool.Common.ApplicationContext;
 import firebase.gopool.R;
-import firebase.gopool.dialogs.BookingReceivedDialog;
 
 public class MyFirebaseMessaging extends FirebaseMessagingService {
     private FirebaseAuth mAuth;
